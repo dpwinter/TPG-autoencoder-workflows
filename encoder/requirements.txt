@@ -1,0 +1,6 @@
+numpy ~= 1.19.0
+tensorflow ~= 2.2.0
+matplotlib ~= 3.2.1
+imageio ~= 2.8.0
+pandas ~= 1.0.5
+imageio-ffmpeg
