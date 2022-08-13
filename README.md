@@ -9,5 +9,7 @@ This repository contains relatively generic workflows written in Python via the 
 4. Allow data preprocessing before model training in various ways.
 5. Generate unique training/model IDs for storing weights and, if desired, continue training at a later point.
 6. Generate live training statistics per epoch via Tensorboard to monitor user-defined performance plots.
+7. Allow network training in parallel on all available GPUs.
+8. Allow stage-wise training by piping training tasks together.
 
 Furthermore, this repository also contains predefined models as a starting point for exploration. These models are written in an Object-oriented way which allows easy composition to train on more than one task.
